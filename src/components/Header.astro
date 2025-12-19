@@ -3,6 +3,19 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 ---
 
+<header class="navbar">
+  <div class="nav-inner">
+    <img src="/assets/logo/logo.png" alt="CV BJAS" class="logo" />
+
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#brand">Brand</a>
+      <a href="#klien">Klien</a>
+      <a href="#kontak" class="btn">Konsultasi</a>
+    </nav>
+  </div>
+</header>
+
 <header>
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
